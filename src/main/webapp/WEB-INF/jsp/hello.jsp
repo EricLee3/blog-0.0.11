@@ -109,7 +109,7 @@ h1, h2, h3, h4 {
 					<tr>
                     <td><c:out value="${post.title}" escapeXml="true"></c:out></td>
                     <td><c:out value="${post.subtitle}" escapeXml="true"></c:out><td>
-                    <td><c:out value="${post.content}" escapeXml="true"></c:out></td>
+                    <td><c:out value="${post.content}" escapeXml="false"></c:out></td>
                     </tr>
 				</c:forEach>
 				</tr>
